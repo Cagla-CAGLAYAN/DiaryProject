@@ -6,7 +6,7 @@ I got help from streamlit library for frontend and backend design in the project
 intelligence evaluation. The artificial intelligence that will be evaluated in the Pydantic library is groq. The diaries are saved to Firebase 
 and every time the application is opened, the previously written diaries are pulled from the Firebase realtime database.
 
-To run the project uniquely, you need a groq api key and a firebase api key. The necessary information for Firebase needs to be saved in 
-credentials.json and the groq api key needs to be saved in the .env file.
+To run the project uniquely, you need a groq api key and a firebase credential key. The necessary information for Firebase needs to be saved in 
+credentials.json and the groq api key needs to be saved in the .env file in the same route folder
 
 To run project, you need to write 'streamlit run HomePage.py' on terminal. 
